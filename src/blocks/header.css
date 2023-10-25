@@ -1,0 +1,47 @@
+.header {
+  position: relative;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.header__image1 {
+  background-size: contain;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 200px;
+  height: 300px;
+  background-image: url(../images/Halloween-Character.png);
+  transform: rotate(220deg);
+  opacity: 30%;
+}
+.header__image2 {
+  background-size: contain;
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  background-image: url(../images/Halloween-Character.png);
+  transform: rotate(30deg);
+  opacity: 30%;
+}
+
+.header__title {
+  font-family: Butcherman;
+  position: relative;
+  color: #ff5353;
+  font-size: 80px;
+  line-height: 194px;
+  margin: 0px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.header__description {
+  position: relative;
+  font-family: Poppins;
+  font-size: 26px;
+  line-height: 40px;
+  margin: 0px;
+  text-align: center;
+  padding-right: 20px;
+}
